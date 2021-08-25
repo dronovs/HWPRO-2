@@ -4,16 +4,11 @@ let sumResult = num1 + num2;
 let diffResult = num1 - num2;
 let multResult = num1 * num2;
 let divResult = num1 / num2;
-
-alert(`Calculations are finished!
+let calculateTotal = `Calculations are finished!
 Sum: ${num1} + ${num2} = ${sumResult}
 Diff: ${num1} - ${num2} = ${diffResult}
 Mult: ${num1} * ${num2} = ${multResult}
-Div: ${num1} / ${num2} = ${divResult}`);
+Div: ${num1} / ${num2} = ${divResult}`;
 
-console.log(`Calculations are finished!
-Sum: ${num1} + ${num2} = ${sumResult}
-Diff: ${num1} - ${num2} = ${diffResult}
-Mult: ${num1} * ${num2} = ${multResult}
-Div: ${num1} / ${num2} = ${divResult}`
-);
+alert(calculateTotal);
+console.log(calculateTotal);
